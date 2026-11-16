@@ -6,4 +6,35 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
+  background-color: black;
+}
+
+header {
+  padding-top: 2rem;
+  border-bottom: solid 1px white;
+  padding-bottom: 1rem;
+}
+
+header nav ul {
+ display: flex;
+ flex-direction: row;
+ gap: 2rem;
+ justify-content: center;
+ }
+
+ header a {
+  color: white;
+  text-decoration: #fff;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+}
+
+header a:hover {
+  background-color: green;
+  backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(6, 191, 77, 0.6);
 }
